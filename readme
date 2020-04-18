@@ -1,0 +1,12 @@
+Execute the code as:
+
+python3 Crypto.py key e crypto_input_plain - for encryption
+
+python3 Crypto.py key d crypto_input_cipher - for decryption
+
+crypto_input_plain is the file that contains the plain text
+crypto_cipher_text is the file that contains the cipher text
+
+the key is the file that contains the key, it should be a 32 bit hex in the following fashion:
+
+0x01 0x23 0x45 0x67 0x89 0xAB 0xCD 0xEF
